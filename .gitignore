@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# build output
+.output/
+.nitro/
+.tanstack/
+.tanstack-start/
+dist/
+build/
+.vite/
+
+# generated route tree (auto-created by `vite dev` / `vite build`)
+src/routeTree.gen.ts
+
+# logs & os
+*.log
+.DS_Store
+
+# env & secrets
+.env
+.env.*
+
+# tooling artifacts
+.playwright-mcp/
+*.tsbuildinfo
